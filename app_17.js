@@ -7,10 +7,10 @@ function backgroundCOLOR(value){
     const valueBGcolor = `rgb(${rgb0},${rgb1},${rgb2})`;
     if(value){
         document.body.style.setProperty('background-color',valueBGcolor);
-        localStorage.setItem('background-color',valueBGcolor);  // add item to localStorage
+        sessionStorage.setItem('background-color',valueBGcolor);  // add item to sessionStorage
     }
     else if(value == false){    
-        document.body.style.setProperty('background-color',localStorage.getItem('background-color'));
+        document.body.style.setProperty('background-color',sessionStorage.getItem('background-color'));
     }
 }
 const BGcolor = document.querySelector('body input.BGcolor');
