@@ -1,0 +1,6 @@
+@charset "utf-8";
+*{margin: 0px;padding: 0px;outline: none;text-decoration: none;list-style: none;box-sizing: border-box;}
+:is(::after,::before){margin: 0px;padding: 0px;box-sizing: border-box;}
+body{min-height: 100vh;margin: 0px auto;font-family: Arial, Helvetica, sans-serif;}
+/* start input */
+body input.BGcolor{font-weight: bold;font-size: 18px;padding: .5em .5em;position: fixed;left: 50%;top: 50%;transform: translate(-50%,-50%);cursor: pointer;background-color: aliceblue;border:1px solid black;}
